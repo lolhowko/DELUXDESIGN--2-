@@ -1,0 +1,37 @@
+.header {
+  background-image: url(/public/img/headerback.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1210px;
+  position: relative;
+}
+
+.header__logo {
+  text-decoration: none;
+}
+
+.header__logo__img {
+  width: 30%;
+  position: absolute;
+  right: 150px;
+  bottom: 50px;
+}
+
+.header__links {
+  padding-top: 30px;
+  display: flex;
+  justify-content: end;
+  margin-right: 150px;
+  gap: 65px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: rgb(200, 200, 200);
+  font-size: 50px;
+  font-family: 'bahnschrift';
+}
+
+.header__link:hover {
+  color: rgb(99, 99, 99);
+}
