@@ -1,0 +1,161 @@
+.content {
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+.content__box__tittle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__box__tittle__text {
+  font-size: 60pt;
+  font-weight: 700;
+}
+
+.content__gorline {
+  border-top: 5px solid black;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.about {
+  margin-top: 100px;
+}
+
+.about__box {
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__box__texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 971px;
+}
+
+.about__box__text {
+  text-align: left;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 100;
+}
+
+.about__box__text_small {
+  font-size: 30px;
+  color: #aeaeae;
+}
+
+.about__box__img {
+  background-image: url(/public/img/aboutbox1.png);
+  width: 861px;
+  height: 971px;
+}
+
+.service {
+  padding-bottom: 100px;
+}
+
+.service__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service___box__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.service__box__tittle {
+  font-size: 45px;
+  font-weight: 100;
+}
+
+.service__box__text {
+  font-size: 40px;
+  font-weight: 100;
+  text-align: left;
+  width: 797px;
+}
+
+.service__box__button {
+  font-size: 25px;
+  width: 400px;
+  color: #aeaeae;
+  background: transparent;
+  padding: 10px 20px;
+}
+
+.service__box__img {
+  background-image: url(/public/img/servicebox1.png);
+  background-repeat: no-repeat;
+
+  width: 1000px;
+  height: 551px;
+  margin-top: 30px;
+}
+
+.service__box__img_2 {
+  background-image: url(/public/img/servicebox2.png);
+  background-repeat: no-repeat;
+
+  width: 1000px;
+  height: 600px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.projects {
+}
+
+.projects__box {
+}
+
+.projects__box__tittle {
+  text-align: left;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.projects__box__content {
+  display: flex;
+  gap: 40px;
+}
+
+.projects__box__img {
+  background-image: url(/public/img/projectsinterior1.png);
+  background-repeat: no-repeat;
+  width: 700px;
+  height: 400px;
+}
+
+.projects__box__img_2 {
+  background-image: url(/public/img/projectsinterior2.png);
+  background-repeat: no-repeat;
+  width: 700px;
+  height: 400px;
+}
+
+.projects__box__texts {
+  display: flex;
+  flex-direction: column;
+  width: 531px;
+}
+
+.projects__box__text {
+  font-size: 35px;
+  font-weight: 100;
+  text-align: left;
+}
+
+.projects__box__button {
+  margin-top: 30px;
+  font-size: 25px;
+  width: 400px;
+  color: #aeaeae;
+  background: transparent;
+  padding: 10px 20px;
+}
