@@ -186,21 +186,22 @@
 .realization__content {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 50px;
 }
 
 .realization__box {
   display: flex;
-  gap: 30px;
+  justify-content: center;
+  gap: 50px;
 }
 
 .realization__box__img {
   background-repeat: no-repeat;
-  width: 440px;
-  height: 537px;
+  width: 600px;
+  height: 700px;
 }
 
-.realization__box__img_1 {
+/* .realization__box__img_1 {
   background-image: url(/public/img/realization1.png);
 }
 
@@ -214,20 +215,30 @@
 
 .realization__box__img_4 {
   background-image: url(/public/img/realization4.png);
-}
+} */
 
 .realization__box__img_big {
   background-repeat: no-repeat;
-  width: 814px;
-  height: 537px;
+  /* width: 814px;
+  height: 537px; */
+
+  width: 1000px;
+  height: 700px;
 }
 
-.realization__box__img_big_1 {
+/* .realization__box__img_big_1 {
   background-image: url(/public/img/realizationbig1.png);
 }
 
 .realization__box__img_big_2 {
   background-image: url(/public/img/realizationbig2.png);
+} */
+
+.realization__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-right: 70px;
 }
 
 .realization__button {
@@ -254,10 +265,9 @@
 }
 
 .wrnt__box {
-  background-image: url(/public/img/wrnt.png);
   background-repeat: no-repeat;
-  width: 1725px;
-  height: 375px;
+  width: 100%;
+  height: 500px;
 }
 
 .wrnt__slogan {
@@ -267,7 +277,7 @@
 }
 
 .wrnt__laptop {
-  background-image: url(/public/img/wrntlaptop.png);
+  margin-top: 50px;
   background-repeat: no-repeat;
   width: 1718px;
   height: 1067px;
@@ -282,6 +292,8 @@
 }
 
 .footer__content {
+  display: flex;
+  justify-content: space-between;
   padding-bottom: 100px;
 }
 
@@ -303,6 +315,10 @@
   align-items: start;
 }
 
+.footer__box_right {
+  gap: 30px;
+}
+
 .footer__box__contacts {
   display: flex;
   gap: 100px;
@@ -322,18 +338,29 @@
 
 .footer__logo {
   background-color: #dedede;
-  background-image: url(/public/img/logo.png);
-  background-repeat: no-repeat;
   width: 100%;
   height: 330px;
 }
 
 .footer__links {
+  display: flex;
+  gap: 30px;
 }
 
 .footer__link {
   text-decoration: none;
-  padding-top: 10px;
-  height: 20px;
-  width: 20px;
+}
+
+.footer__link__img {
+  height: 60px;
+  width: 60px;
+}
+
+.footer__button {
+  background: black;
+  color: white;
+  font-size: 25px;
+  width: 400px;
+  font-weight: 300;
+  padding: 20px 20px;
 }

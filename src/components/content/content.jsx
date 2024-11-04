@@ -148,19 +148,58 @@ export function Content() {
 
           <div className="realization__content">
             <div className="realization__box">
-              <div className="realization__box__img_big realization__box__img_big_1"></div>
+              <img
+                src="/img/realizationbig1.png"
+                alt="realizationbig"
+                className="realization__box__img_big"
+              />
+
+              <img
+                src="/img/realization1.png"
+                alt="realizationimg"
+                className="realization__box__img"
+              />
+
+              <img
+                src="/img/realization2.png"
+                alt="realizationimg"
+                className="realization__box__img"
+              />
+
+              {/* <div className="realization__box__img_big realization__box__img_big_1"></div>
               <div className="realization__box__img realization__box__img_1"></div>
-              <div className="realization__box__img realization__box__img_2"></div>
+              <div className="realization__box__img realization__box__img_2"></div> */}
             </div>
 
             <div className="realization__box">
-              <div className="realization__box__img_big realization__box__img_big_2"></div>
+              <img
+                src="/img/realizationbig2.png"
+                alt="realizationbig"
+                className="realization__box__img_big"
+              />
+
+              <img
+                src="/img/realization3.png"
+                alt="realizationimg"
+                className="realization__box__img"
+              />
+
+              <img
+                src="/img/realization4.png"
+                alt="realizationimg"
+                className="realization__box__img"
+              />
+              {/* <div className="realization__box__img_big realization__box__img_big_2"></div>
               <div className="realization__box__img realization__box__img_3"></div>
-              <div className="realization__box__img realization__box__img_4"></div>
+              <div className="realization__box__img realization__box__img_4"></div> */}
+            </div>
+
+            <div className="realization__footer">
+              <button className="realization__button">
+                Смотреть все проекты
+              </button>
             </div>
           </div>
-
-          <button className="realization__button">Смотреть все проекты</button>
         </div>
 
         <div className="wrnt">
@@ -176,11 +215,15 @@ export function Content() {
             <p className="wrnt__tittle">НАДЕЖНОСТЬ</p>
           </div>
 
-          <div className="wrnt__box"></div>
+          <img src="/img/wrnt.png" alt="wrnt clients" className="wrnt__box" />
 
           <p className="wrnt__slogan">НАША ГАРАНТИЯ - НАШИ ЗАКАЗЧИКИ</p>
 
-          <div className="wrnt__laptop"></div>
+          <img
+            src="/img/wrntlaptop.png"
+            alt="laptop"
+            className="wrnt__laptop"
+          />
         </div>
       </div>
 
@@ -212,19 +255,37 @@ export function Content() {
             <div className="footer__box__contact__text">info@design.ru</div>
           </div>
 
-          <div className="footer__links">
-            <a href="https://t.me/DELUXDESIGN_1" className="footer__link">
-              {/* <img src="./public/img/telegram.png" alt="telegram" /> */}
-            </a>
-            <a
-              href="https://wa.me/message/RL2KWUANQPGWA1"
-              className="footer__link"
-            ></a>
-            <a href="https://vk.com/deluxdesign " className="footer__link"></a>
+          <div className="footer__box footer__box_right">
+            <div className="footer__links">
+              <a href="https://t.me/DELUXDESIGN_1" className="footer__link">
+                <img
+                  src="img/telegram.png"
+                  alt="telegram"
+                  className="footer__link__img"
+                />
+              </a>
+              <a
+                href="https://wa.me/message/RL2KWUANQPGWA1"
+                className="footer__link"
+              >
+                <img
+                  src="img/whatsapp.png"
+                  alt="whatsapp"
+                  className="footer__link__img"
+                />
+              </a>
+              <a href="https://vk.com/deluxdesign " className="footer__link">
+                <img src="img/vk.png" alt="vk" className="footer__link__img" />
+              </a>
+            </div>
+
+            <div className="footer__button">НАПИСАТЬ НАМ</div>
           </div>
         </div>
       </div>
-      <div className="footer__logo"></div>
+
+      {/* <div className="footer__logo"></div> */}
+      <img src="/img/logo.png" alt="" className="footer__logo" />
     </div>
   );
 }
