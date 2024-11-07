@@ -61,35 +61,35 @@ export function Header() {
 
       <div className="header__content">
         <div className="header__content__tittle">
-          <p className="header__content__tittle__text">2015</p>
-          <p className="header__content__tittle__text_small">год основания</p>
+          <div className="header__content__tittle__text">2015</div>
+          <div className="header__content__tittle__text_small">год основания</div>
         </div>
         <div className="header__gorline"></div>
 
         <div className="header__content__box">
           <div className="header__content__item">
-            <p className="header__content__item__tittle">150 +</p>
-            <p className="header__content__item__text">
+            <div className="header__content__item__tittle">150 +</div>
+            <div className="header__content__item__text">
               реализованных проектов
-            </p>
+            </div>
           </div>
           <div className="header__vertline"></div>
 
           <div className="header__content__item">
-            <p className="header__content__item__tittle">200 +</p>
-            <p className="header__content__item__text">разных мероприятий</p>
+            <div className="header__content__item__tittle">200 +</div>
+            <div className="header__content__item__text">разных мероприятий</div>
           </div>
           <div className="header__vertline"></div>
 
           <div className="header__content__item">
-            <p className="header__content__item__tittle">300 +</p>
-            <p className="header__content__item__text">готовых проектов</p>
+            <div className="header__content__item__tittle">300 +</div>
+            <div className="header__content__item__text">готовых проектов</div>
           </div>
           <div className="header__vertline"></div>
 
           <div className="header__content__item">
-            <p className="header__content__item__tittle">100 %</p>
-            <p className="header__content__item__text">довольных клиентов</p>
+            <div className="header__content__item__tittle">100 %</div>
+            <div className="header__content__item__text">довольных клиентов</div>
           </div>
         </div>
         <div className="header__gorline"></div>

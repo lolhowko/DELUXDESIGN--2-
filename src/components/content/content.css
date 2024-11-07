@@ -1,6 +1,6 @@
 .content {
-  margin-right: 300px;
-  margin-left: 300px;
+  margin-right: 400px;
+  margin-left: 460px;
 }
 
 .content__box__tittle {
@@ -15,7 +15,7 @@
 
 .content__gorline {
   border-top: 5px solid black;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   margin-top: 20px;
 }
 
@@ -33,25 +33,24 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 971px;
+  width: 35%;
 }
 
 .about__box__text {
   text-align: left;
-  font-size: 40px;
+  font-size: 25pt;
   line-height: 40px;
   font-weight: 100;
 }
 
 .about__box__text_small {
-  font-size: 30px;
-  color: #aeaeae;
+  font-size: 20pt;
 }
 
 .about__box__img {
   background-image: url(/public/img/aboutbox1.png);
-  width: 861px;
-  height: 971px;
+  width: 855px;
+  height: 977px;
 }
 
 .service {
@@ -67,53 +66,82 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  gap: 50px;
+}
+
+.service__box__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .service__box__tittle {
-  font-size: 45px;
+  font-size: 25pt;
   font-weight: 100;
 }
 
 .service__box__text {
-  font-size: 40px;
-  font-weight: 100;
+  font-size: 20pt;
   text-align: left;
   width: 797px;
+  font-weight: 100;
+}
+
+.service__box__text_down {
+  margin-top: 30px;
+}
+
+.service__box__text_bold {
+  font-weight: bold;
 }
 
 .service__box__button {
+  border-radius: 5px;
+  border-color: #aeaeae;
   font-size: 25px;
   width: 400px;
   color: #aeaeae;
   background: transparent;
   padding: 10px 20px;
+  margin-top: 30px;
+}
+
+.service__box__button_down {
+  margin-top: 60px;
+}
+
+.service__box__button:hover {
+  cursor: pointer;
+  color: white;
+  background: #aeaeae;
+  transform: scale(1.05);
 }
 
 .service__box__img {
   background-image: url(/public/img/servicebox1.png);
   background-repeat: no-repeat;
 
-  width: 1000px;
-  height: 551px;
-  margin-top: 30px;
+  width: 850px;
+  height: 550px;
+
+  margin-top: 40px;
 }
 
 .service__box__img_2 {
   background-image: url(/public/img/servicebox2.png);
   background-repeat: no-repeat;
 
-  width: 1000px;
-  height: 600px;
-  margin-bottom: 30px;
-  margin-top: 50px;
+  width: 850px;
+  height: 550px;
 }
 
 .projects {
   margin-top: 100px;
 }
 
-.projects__box {
-}
+/* .projects__box {
+} */
 
 .projects__box__tittle {
   text-align: left;
@@ -181,6 +209,7 @@
 }
 
 .realization {
+  margin-top: 100px;
 }
 
 .realization__content {
@@ -191,12 +220,11 @@
 
 .realization__box {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 50px;
 }
 
 .realization__box__img {
-  background-repeat: no-repeat;
   width: 600px;
   height: 700px;
 }
@@ -218,7 +246,6 @@
 } */
 
 .realization__box__img_big {
-  background-repeat: no-repeat;
   /* width: 814px;
   height: 537px; */
 
@@ -238,7 +265,6 @@
   display: flex;
   flex-direction: column;
   align-items: end;
-  padding-right: 70px;
 }
 
 .realization__button {
@@ -251,6 +277,7 @@
 }
 
 .wrnt {
+  margin-top: 100px;
 }
 
 .wrnt__tittles {

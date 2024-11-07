@@ -6,29 +6,33 @@ export function Content() {
       <div className="content">
         <div className="about">
           <div className="content__box__tittle">
-            <p className="content__box__tittle__text">О НАС</p>
-            <p className="content__box__tittle__text">01</p>
+            <div className="content__box__tittle__text">О НАС</div>
+            <div className="content__box__tittle__text">01</div>
           </div>
           <div className="content__gorline"></div>
           <div className="about__box">
             <div className="about__box__texts">
-              <p className="about__box__text">
-                Мы создаем дизайн, как для себя, как если бы мы были заказчиками
-                и какой результат хотели бы получить. Каждый проект для нас -
-                это мечта и новая вершина в достижении нашей цели.
-              </p>
-              <p className="about__box__text about__box__text_small">
-                ДИЗАЙН - это вся наша жизнь и бесконечная любовь. Это то, чем мы
-                живем, дышим, наслаждаемся и хотим подарить каждому нашему
-                клиенту частичку красоты, вкладывая ее в Ваш проект. Доверяя нам
-                - Вы получаете уникальный проект, где вложена не только душа и
-                философия дизайнера, но и стиль, гармония, красота. Мы рады
-                воплотить в жизнь любую Вашу идею. Владея всеми техническими
-                навоками, нарисуем то, что превратится из мечты в реальность. Вы
-                получите уникальный, не повторимый дизайн, с гарантией качества,
-                современными идеями и вау эффектом. Мы работаем ради Вас и для
-                Вас, и хотим, чтоб красоты вокруг стало больше!
-              </p>
+              <div className="about__box__text about__box__text_small">
+                Мы создаем уникальный дизайн интерьерных решений и выставочных
+                пространств. Всегда с нетерпением ждем новых, интересных
+                проектов, в которые погружаемся и забываем день сейчас или ночь,
+                так как очень любим свою работу и если душа творит, то совсем
+                неважно который час. В нашей профессии очень важно следить за
+                тенденциями, ценообразованием, наблюдать за интересными
+                решениями в мировом сегменте - имея все эти знания, мы предложим
+                лучшие решения дизайна относительно Вашего бюджета.
+                <br />
+                Если у Вас есть мечта - поделитесь ею с нами и мы сделаем все,
+                чтоб она стала реальностью!
+              </div>
+              <div className="about__box__text">
+                МЫ - КОМПАНИЯ «ПОЛНОГО ЦИКЛА»
+              </div>
+              <div className="about__box__text about__box__text_small">
+                У нас можно не только разработать дизайн - проект, но и
+                полностью его реализовать, с помощью наших надежных партнеров.
+                Мы даем гарантию на качество наших услуг.
+              </div>
             </div>
             <div className="about__box__img"></div>
           </div>
@@ -36,35 +40,55 @@ export function Content() {
 
         <div className="service">
           <div className="content__box__tittle">
-            <p className="content__box__tittle__text">УСЛУГИ</p>
-            <p className="content__box__tittle__text">02</p>
+            <div className="content__box__tittle__text">УСЛУГИ</div>
+            <div className="content__box__tittle__text">02</div>
           </div>
           <div className="content__gorline"></div>
 
           <div className="service__box">
             <div className="service___box__item">
-              <p className="service__box__tittle">ИНТЕРЬЕРЫ</p>
-              <p className="service__box__text">
-                Вдохновляясь архитектурными формами и новыми технологиями мы
-                создаем гармоничное пространство, с акцентом на практичность и
-                комфорт. чвпв апрарарарара прврлплапдла опдлоралорарпв авпьлапьд
-                впаппапвапвпвпв пвап.
-              </p>
+              <div className="service__box__tittle">ВЫСТАВКИ</div>
+              <div className="service__box__text">
+                Мы разрабатываем дизайн, который не только соответствует Вашему
+                бренду, но и оптимизирует использование пространства для
+                повышения эффективности бизнеса.
+                <span className="service__box__text service__box__text_bold">
+                  &nbsp; К нам обращаются с выставочными стендами / ПМЭФ / ВЭФ /
+                  фестивалями / форумами / конгрессами / презентациями / EVENT
+                  мероприятиями /
+                </span>
+              </div>
+              <div className="service__box__text">
+                Каждый проект для нас - это креативные решения и новые
+                возможности для личностного роста.
+              </div>
+
               <button className="service__box__button">
                 Скачать и заполнить бриф
               </button>
+
               <div className="service__box__img"></div>
             </div>
+
             <div className="service___box__item">
               <div className="service__box__img_2"></div>
 
-              <p className="service__box__tittle">ВЫСТАВКИ</p>
-              <p className="service__box__text">
-                Черпая вдохновение у самой природы, в ее многообразии красок,
-                форм, текстур и рисунков, мы сами стали творцами, научившись
-                создавать удивительные вещи и интерьеры.
-              </p>
-              <button className="service__box__button">
+              <div className="service__box__tittle">ИНТЕРЬЕРЫ</div>
+
+              <div className="service__box__text">
+                Мы разрабатываем функциональные и привлекательные дизайны для
+                жилых и коммерческих помещений.
+                <span className="service__box__text service__box__text_bold">
+                  &nbsp; К нам обращаются с квартирами / загородными домами /
+                  отелями / офисными пространствами / ресторанами / корнерами /
+                  магазинами / салонами красоты /
+                </span>
+              </div>
+              <div className="service__box__text service__box__text_down">
+                Каждый проект для нас - это мечта и новая вершина в достижении
+                нашей цели.
+              </div>
+              <button className="service__box__button service__box__button_down">
                 Скачать и заполнить бриф
               </button>
             </div>
@@ -73,8 +97,8 @@ export function Content() {
 
         <div className="projects">
           <div className="content__box__tittle">
-            <p className="content__box__tittle__text">ПРОЕКТЫ</p>
-            <p className="content__box__tittle__text">03</p>
+            <div className="content__box__tittle__text">ПРОЕКТЫ</div>
+            <div className="content__box__tittle__text">03</div>
           </div>
           <div className="content__gorline"></div>
 
@@ -141,8 +165,8 @@ export function Content() {
 
         <div className="realization">
           <div className="content__box__tittle">
-            <p className="content__box__tittle__text">РЕАЛИЗАЦИЯ</p>
-            <p className="content__box__tittle__text">04</p>
+            <div className="content__box__tittle__text">РЕАЛИЗАЦИЯ</div>
+            <div className="content__box__tittle__text">04</div>
           </div>
           <div className="content__gorline"></div>
 
@@ -204,8 +228,8 @@ export function Content() {
 
         <div className="wrnt">
           <div className="content__box__tittle">
-            <p className="content__box__tittle__text">ГАРАНТИЯ</p>
-            <p className="content__box__tittle__text">05</p>
+            <div className="content__box__tittle__text">ГАРАНТИЯ</div>
+            <div className="content__box__tittle__text">05</div>
           </div>
           <div className="content__gorline"></div>
 
@@ -229,8 +253,8 @@ export function Content() {
 
       <div className="footer">
         <div className="footer__box__tittle">
-          <p className="footer__box__tittle__text">КОНТАКТЫ</p>
-          <p className="footer__box__tittle__text">05</p>
+          <div className="footer__box__tittle__text">КОНТАКТЫ</div>
+          <div className="footer__box__tittle__text">05</div>
         </div>
         <div className="content__gorline"></div>
 
