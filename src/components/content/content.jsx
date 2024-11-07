@@ -103,21 +103,56 @@ export function Content() {
           <div className="content__gorline"></div>
 
           <div className="projects__box">
-            <div className="projects__box__tittle">ИНТЕРЬЕРЫ</div>
+            <div className="projects__box__tittle">ВЫСТАВКИ</div>
             <div className="projects__box__content">
               <div className="projects__box__imgbox">
-                <div className="projects__box__img projects__box__img_1"></div>
-                <p className="projects__box__imgtext">
-                  г. Москва, жк ВОРОБЬЕВЫ ГОРЫ
-                </p>
+                <div className="projects__box__img projects__box__img_3">
+                  {' '}
+                  <div className="projects__box__imgtext">
+                    г. Москва, ALPHABET
+                  </div>
+                </div>
               </div>
 
               <div className="projects__box__imgbox">
-                <div className="projects__box__img projects__box__img_2"></div>
+                <div className="projects__box__img projects__box__img_4">
+                  <div className="projects__box__imgtext">
+                    г. Москва, ПМЭМ - Калужская область
+                  </div>
+                </div>
+              </div>
 
-                <p className="projects__box__imgtext">
-                  г. Москва, жк WEST GARDEN
-                </p>
+              <div className="projects__box__texts">
+                <div className="projects__box__text">
+                  Вдохновляясь архитектурными формами и новыми современными
+                  материалами мы создаем уникальные концепции дизайна, которые
+                  отражают индивидуальность Вашего бренда и создают комфортное
+                  пространство.
+                </div>
+                <button className="service__box__button projects__box__button">
+                  Смотреть все проекты
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div className="projects__box projects__box_down">
+            <div className="projects__box__tittle">ИНТЕРЬЕРЫ</div>
+            <div className="projects__box__content">
+              <div className="projects__box__imgbox">
+                <div className="projects__box__img projects__box__img_1">
+                  <div className="projects__box__imgtext">
+                    г. Москва, жк ВОРОБЬЕВЫ ГОРЫ
+                  </div>
+                </div>
+              </div>
+
+              <div className="projects__box__imgbox">
+                <div className="projects__box__img projects__box__img_2">
+                  <div className="projects__box__imgtext">
+                    г. Москва, жк WEST GARDEN
+                  </div>
+                </div>
               </div>
 
               <div className="projects__box__texts">
@@ -126,36 +161,7 @@ export function Content() {
                   форм, текстур и рисунков, мы сами стали творцами, научившись
                   создавать удивительные вещи и интерьеры.
                 </div>
-                <button className="projects__box__button">
-                  Смотреть все проекты
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div className="projects__box">
-            <div className="projects__box__tittle">ВЫСТАВКИ</div>
-            <div className="projects__box__content">
-              <div className="projects__box__imgbox">
-                <div className="projects__box__img projects__box__img_3"></div>
-                <p className="projects__box__imgtext">г. Москва, ALPHABET</p>
-              </div>
-
-              <div className="projects__box__imgbox">
-                <div className="projects__box__img projects__box__img_4"></div>
-
-                <p className="projects__box__imgtext">
-                  г. Москва, ПМЭМ - Калужская область
-                </p>
-              </div>
-
-              <div className="projects__box__texts">
-                <div className="projects__box__text">
-                  Вдохновляясь архитектурными формами и новыми технологиями мы
-                  создаем гармоничное пространство, с акцентом на практичность и
-                  комфорт.
-                </div>
-                <button className="projects__box__button">
+                <button className="service__box__button projects__box__button">
                   Смотреть все проекты
                 </button>
               </div>
@@ -263,20 +269,31 @@ export function Content() {
             <div className="footer__box__contacts">
               <div className="footer__box__contact">
                 <div className="footer__box__contact__text">Александр</div>
-                <div className="footer__box__contact__text">
+                <a
+                  href="tel:89002451630"
+                  className="footer__box__contact__text"
+                >
                   8 900 245 16 30
-                </div>
+                </a>
               </div>
 
               <div className="footer__box__contact">
                 <div className="footer__box__contact__text">Светлана</div>
-                <div className="footer__box__contact__text">
+                <a
+                  href="tel:89002451630"
+                  className="footer__box__contact__text"
+                >
                   8 906 037 96 56
-                </div>
+                </a>
               </div>
             </div>
 
-            <div className="footer__box__contact__text">info@design.ru</div>
+            <a
+              href="mailto:info@deluxedesign.ru"
+              className="footer__box__contact__text"
+            >
+              info@design.ru
+            </a>
           </div>
 
           <div className="footer__box footer__box_right">
@@ -308,8 +325,9 @@ export function Content() {
         </div>
       </div>
 
-      {/* <div className="footer__logo"></div> */}
       <img src="/img/logo.png" alt="" className="footer__logo" />
+
+      {/* <div className="footer__logo"></div> */}
     </div>
   );
 }
