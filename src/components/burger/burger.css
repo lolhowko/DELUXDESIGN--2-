@@ -14,6 +14,10 @@
   justify-content: space-between;
 }
 
+.nav__burger {
+  cursor: pointer;
+}
+
 .burger__line {
   display: inline-block;
   width: 300%;
@@ -27,7 +31,7 @@
   visibility: visible;
   padding: 40px 0;
   background-color: white;
-  width: 12%;
+  width: 15%;
   height: 1210px;
   padding-left: 10px;
   display: flex;
@@ -62,12 +66,20 @@
   line-height: 24px;
 }
 
+.menu__link:hover {
+  color: rgb(99, 99, 99);
+}
+
 .menu__link_small {
   text-decoration: none;
   color: #909090;
   font-weight: 400;
   font-size: 15pt;
   line-height: 24px;
+}
+
+.menu__link_small:hover {
+  color: rgb(99, 99, 99);
 }
 
 .menu__link__contact {
@@ -94,9 +106,18 @@
 }
 
 .menu__contact__button {
+  border-radius: 5px;
+  border-color: #aeaeae;
   width: 220px;
   font-size: 18pt;
   text-align-last: left;
   color: #909090;
   padding: 8px 10px;
+}
+
+.menu__contact__button:hover {
+  color: white;
+  background: #aeaeae;
+  transform: scale(1.05);
+  cursor: pointer;
 }

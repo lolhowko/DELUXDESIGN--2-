@@ -225,7 +225,7 @@ export function Content() {
             </div>
 
             <div className="realization__footer">
-              <button className="realization__button">
+              <button className="service__box__button realization__button">
                 Смотреть все проекты
               </button>
             </div>

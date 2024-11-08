@@ -7,7 +7,7 @@ export function Header() {
   const toggleVisibility = () => setVisible(!visible);
 
   const [visibleAbout, setVisibleAbout] = useState(true);
-  const toggleVisibilityAbout = () => setVisibleAbout(!visible);
+  const toggleVisibilityAbout = () => setVisibleAbout(!visibleAbout);
 
   return (
     <div>
@@ -34,6 +34,7 @@ export function Header() {
             </div>
           )}
         </div>
+
         <div className="header__links">
           <a href="#" className="header__link" onClick={toggleVisibilityAbout}>
             О СТУДИИ
@@ -62,7 +63,9 @@ export function Header() {
       <div className="header__content">
         <div className="header__content__tittle">
           <div className="header__content__tittle__text">2015</div>
-          <div className="header__content__tittle__text_small">год основания</div>
+          <div className="header__content__tittle__text_small">
+            год основания
+          </div>
         </div>
         <div className="header__gorline"></div>
 
@@ -77,7 +80,9 @@ export function Header() {
 
           <div className="header__content__item">
             <div className="header__content__item__tittle">200 +</div>
-            <div className="header__content__item__text">разных мероприятий</div>
+            <div className="header__content__item__text">
+              разных мероприятий
+            </div>
           </div>
           <div className="header__vertline"></div>
 
@@ -89,7 +94,9 @@ export function Header() {
 
           <div className="header__content__item">
             <div className="header__content__item__tittle">100 %</div>
-            <div className="header__content__item__text">довольных клиентов</div>
+            <div className="header__content__item__text">
+              довольных клиентов
+            </div>
           </div>
         </div>
         <div className="header__gorline"></div>
