@@ -1,0 +1,206 @@
+@media (max-width: 1840px) {
+  .content {
+    margin-right: 250px;
+    margin-left: 250px;
+  }
+
+  .content__box__tittle {
+    margin-top: 100px;
+  }
+
+  .content__box__tittle__text {
+    font-size: 40pt;
+    font-weight: 400;
+  }
+
+  .content__gorline {
+    border-top: 2px solid black;
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+
+  .about__box__texts {
+    width: 45%;
+  }
+
+  .about__box__text {
+    font-size: 15pt;
+    line-height: 20px;
+  }
+
+  .about__box__text_small {
+    font-size: 12pt;
+  }
+
+  .about__box__img {
+    width: 400px;
+    height: 500px;
+  }
+
+  .service__box {
+    gap: 20px;
+  }
+  .service___box__item {
+    gap: 20px;
+  }
+
+  .service__box__tittle {
+    font-size: 15pt;
+    font-weight: 100;
+  }
+
+  .service__box__text {
+    font-size: 12pt;
+    width: 90%;
+  }
+
+  .service__box__button {
+    font-size: 8pt;
+    width: 200px;
+    margin-top: 40px;
+  }
+
+  .service__box__button_down {
+    margin-top: 10px;
+  }
+
+  .service__box__img {
+    width: 100%;
+    height: 350px;
+
+    margin-top: 0px;
+  }
+
+  .service__box__img_1 {
+    margin-top: 0px;
+  }
+
+  .projects__box__tittle {
+    font-size: 15pt;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  .projects__box__content {
+    gap: 10px;
+  }
+
+  .projects__box__imgbox {
+    gap: 5px;
+  }
+
+  .projects__box__img {
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 100%;
+  }
+
+  .projects__box__imgtext {
+    font-size: 10pt;
+    top: 103%;
+  }
+
+  .projects__box__texts {
+    width: 35%;
+  }
+
+  .projects__box__text {
+    font-size: 12pt;
+  }
+
+  .projects__box__button {
+    font-size: 15px;
+    width: 200px;
+    padding: 5px 10px;
+  }
+
+  .realization__content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .realization__box {
+    gap: 5px;
+  }
+
+  .realization__box__img {
+    width: 25%;
+    height: 100%;
+  }
+
+  .realization__box__img_big {
+    width: 42%;
+    height: 100%;
+  }
+
+  .wrnt__tittle {
+    font-size: 35pt;
+    font-weight: 200;
+  }
+
+  .wrnt__box {
+    width: 100%;
+    height: 100%;
+  }
+
+  .wrnt__slogan {
+    font-size: 18pt;
+    margin-top: 30px;
+  }
+
+  .wrnt__laptop {
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+  }
+
+  .footer {
+    padding-top: 80px;
+    padding-right: 250px;
+    padding-left: 250px;
+  }
+
+  .footer__content {
+    padding-bottom: 80px;
+  }
+
+  .footer__box__tittle__text {
+    font-size: 25pt;
+    font-weight: 300;
+  }
+
+  .footer__box {
+    padding-top: 30px;
+    gap: 20px;
+  }
+
+  .footer__links {
+    gap: 45px;
+  }
+
+  .footer__link__img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .footer__box__contact__text {
+    font-size: 20pt;
+    font-weight: 200;
+  }
+
+  .footer__button {
+    color: white;
+    font-size: 15pt;
+    width: 200px;
+    font-weight: 200;
+    padding: 10px 10px;
+  }
+
+  .footer__logo {
+    width: 100%;
+    height: 100%;
+  }
+}

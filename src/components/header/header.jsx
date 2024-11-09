@@ -14,7 +14,11 @@ export function Header() {
       <div className="header">
         <Burger />
         <a href="#" className="header__logo">
-          <img src="../img/logo.png" alt="logo" className="header__logo__img" />
+          <img
+            src="/public/img/logo.png"
+            alt="logo"
+            className="header__logo__img"
+          />
         </a>
       </div>
 

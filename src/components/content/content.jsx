@@ -1,4 +1,5 @@
 import './content.css';
+import './contentmedia.css';
 
 export function Content() {
   return (
@@ -34,7 +35,11 @@ export function Content() {
                 Мы даем гарантию на качество наших услуг.
               </div>
             </div>
-            <div className="about__box__img"></div>
+            <img
+              src="/public/img/aboutbox1.png"
+              alt=""
+              className="about__box__img"
+            />
           </div>
         </div>
 
@@ -67,11 +72,19 @@ export function Content() {
                 Скачать и заполнить бриф
               </button>
 
-              <div className="service__box__img"></div>
+              <img
+                src="../img/servicebox1.png"
+                alt=""
+                className="service__box__img service__box__img_1"
+              />
             </div>
 
             <div className="service___box__item">
-              <div className="service__box__img_2"></div>
+              <img
+                src="../img/servicebox2.png"
+                alt=""
+                className="service__box__img"
+              />
 
               <div className="service__box__tittle">ИНТЕРЬЕРЫ</div>
 
@@ -104,10 +117,10 @@ export function Content() {
 
           <div className="projects__box">
             <div className="projects__box__tittle">ВЫСТАВКИ</div>
+
             <div className="projects__box__content">
               <div className="projects__box__imgbox">
                 <div className="projects__box__img projects__box__img_3">
-                  {' '}
                   <div className="projects__box__imgtext">
                     г. Москва, ALPHABET
                   </div>

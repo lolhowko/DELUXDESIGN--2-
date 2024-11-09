@@ -52,8 +52,8 @@
 }
 
 .header__content {
-  margin-right: 460px;
-  margin-left: 460px;
+  margin-right: 350px;
+  margin-left: 350px;
 }
 
 .header__content__tittle {
@@ -106,4 +106,39 @@
 
 .header__vertline {
   border-left: 5px solid #e5e5e5;
+}
+
+@media (max-width: 1840px) {
+  .header__content {
+    margin-right: 250px;
+    margin-left: 250px;
+  }
+
+  .header__content__tittle__text {
+    font-size: 80pt;
+    line-height: 0px;
+  }
+  
+  .header__content__tittle__text_small {
+    font-size: 30pt;
+  }
+
+  .header__gorline {
+    border-top: 2px solid #e5e5e5;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .header__content__box {
+    display: flex;
+    gap: 20px;
+  }
+
+  .header__content__item__tittle {
+    font-size: 30pt;
+  }
+
+  .header__content__item__text {
+    font-size: 15pt;
+  }
 }
