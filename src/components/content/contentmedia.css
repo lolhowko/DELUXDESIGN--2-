@@ -40,6 +40,11 @@
   .service__box {
     gap: 20px;
   }
+
+  .service__box__content {
+    height: 350px;
+  }
+
   .service___box__item {
     gap: 20px;
   }
@@ -55,13 +60,9 @@
   }
 
   .service__box__button {
-    font-size: 8pt;
-    width: 200px;
+    font-size: 10pt;
+    width: 250px;
     margin-top: 40px;
-  }
-
-  .service__box__button_down {
-    margin-top: 10px;
   }
 
   .service__box__img {
@@ -109,9 +110,10 @@
   }
 
   .projects__box__button {
-    font-size: 15px;
+    font-size: 10pt;
     width: 200px;
     padding: 5px 10px;
+    margin-bottom: 0px;
   }
 
   .realization__content {
@@ -184,6 +186,10 @@
   .footer__link__img {
     height: 40px;
     width: 40px;
+  }
+
+  .footer__box__contact {
+    gap: 10px;
   }
 
   .footer__box__contact__text {

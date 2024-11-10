@@ -69,6 +69,7 @@
 }
 
 .service__box__content {
+  height: 550px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -106,10 +107,6 @@
   margin-top: 40px;
 }
 
-.service__box__button_down {
-  margin-top: 60px;
-}
-
 .service__box__button:hover {
   cursor: pointer;
   color: white;
@@ -118,7 +115,6 @@
 }
 
 .service__box__img {
-
   width: 850px;
   height: 550px;
 
@@ -132,7 +128,7 @@
 } */
 
 .projects__box_down {
-  margin-top: 80px;
+  /* margin-top: 80px; */
 }
 
 .projects__box__tittle {
@@ -159,7 +155,7 @@
   height: 370px;
 }
 
-.projects__box__img_1 {
+/* .projects__box__img_1 {
   background-image: url(/public/img/projectsinterior1.png);
 }
 
@@ -173,19 +169,17 @@
 
 .projects__box__img_4 {
   background-image: url(/public/img/projectsexh2.png);
-}
+} */
 
 .projects__box__imgtext {
   font-size: 15pt;
   text-align: left;
-    position: relative;
-    top: 380px;
 }
 
 .projects__box__texts {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 45%;
   justify-content: space-between;
 }
 
@@ -202,6 +196,7 @@
   color: #aeaeae;
   background: transparent;
   padding: 10px 20px;
+  margin-bottom: 25px;
 }
 
 .realization {

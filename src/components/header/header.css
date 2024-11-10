@@ -34,6 +34,7 @@
 }
 
 .header__link {
+  cursor: pointer;
   text-decoration: none;
   color: rgb(200, 200, 200);
   font-size: 21pt;
@@ -109,6 +110,10 @@
 }
 
 @media (max-width: 1840px) {
+  .header {
+    height: 700px;
+  }
+
   .header__content {
     margin-right: 250px;
     margin-left: 250px;
@@ -118,7 +123,7 @@
     font-size: 80pt;
     line-height: 0px;
   }
-  
+
   .header__content__tittle__text_small {
     font-size: 30pt;
   }

@@ -24,9 +24,9 @@ export function Header() {
 
       <div className="header__links__box">
         <div className="header__links">
-          <a href="#" className="header__link" onClick={toggleVisibility}>
+          <div className="header__link" onClick={toggleVisibility}>
             ПОРТФОЛИО
-          </a>
+          </div>
           {!visible && (
             <div className="header__links">
               <a href="#" className="header__link_small">
@@ -40,9 +40,9 @@ export function Header() {
         </div>
 
         <div className="header__links">
-          <a href="#" className="header__link" onClick={toggleVisibilityAbout}>
+          <div className="header__link" onClick={toggleVisibilityAbout}>
             О СТУДИИ
-          </a>
+          </div>
           {!visibleAbout && (
             <div className="header__links">
               <a href="#" className="header__link_small">

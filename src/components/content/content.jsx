@@ -52,28 +52,30 @@ export function Content() {
 
           <div className="service__box">
             <div className="service___box__item">
-              <div className="service__box__tittle">ВЫСТАВКИ</div>
-              <div className="service__box__text">
-                Мы разрабатываем дизайн, который не только соответствует Вашему
-                бренду, но и оптимизирует использование пространства для
-                повышения эффективности бизнеса.
-                <span className="service__box__text service__box__text_bold">
-                  &nbsp; К нам обращаются с выставочными стендами / ПМЭФ / ВЭФ /
-                  фестивалями / форумами / конгрессами / презентациями / EVENT
-                  мероприятиями /
-                </span>
-              </div>
-              <div className="service__box__text">
-                Каждый проект для нас - это креативные решения и новые
-                возможности для личностного роста.
-              </div>
+              <div className="service__box__content">
+                <div className="service__box__tittle">ВЫСТАВКИ</div>
+                <div className="service__box__text">
+                  Мы разрабатываем дизайн, который не только соответствует
+                  Вашему бренду, но и оптимизирует использование пространства
+                  для повышения эффективности бизнеса.
+                  <span className="service__box__text service__box__text_bold">
+                    &nbsp; К нам обращаются с выставочными стендами / ПМЭФ / ВЭФ
+                    / фестивалями / форумами / конгрессами / презентациями /
+                    EVENT мероприятиями /
+                  </span>
+                </div>
+                <div className="service__box__text">
+                  Каждый проект для нас - это креативные решения и новые
+                  возможности для личностного роста.
+                </div>
 
-              <button className="service__box__button">
-                Скачать и заполнить бриф
-              </button>
+                <button className="service__box__button">
+                  Скачать и заполнить бриф
+                </button>
+              </div>
 
               <img
-                src="../img/servicebox1.png"
+                src="/public/img/servicebox1.png"
                 alt=""
                 className="service__box__img service__box__img_1"
               />
@@ -81,29 +83,32 @@ export function Content() {
 
             <div className="service___box__item">
               <img
-                src="../img/servicebox2.png"
+                src="/public/img/servicebox2.png"
                 alt=""
                 className="service__box__img"
               />
 
-              <div className="service__box__tittle">ИНТЕРЬЕРЫ</div>
+              <div className="service__box__content">
+                <div className="service__box__tittle">ИНТЕРЬЕРЫ</div>
 
-              <div className="service__box__text">
-                Мы разрабатываем функциональные и привлекательные дизайны для
-                жилых и коммерческих помещений.
-                <span className="service__box__text service__box__text_bold">
-                  &nbsp; К нам обращаются с квартирами / загородными домами /
-                  отелями / офисными пространствами / ресторанами / корнерами /
-                  магазинами / салонами красоты /
-                </span>
+                <div className="service__box__text">
+                  Мы разрабатываем функциональные и привлекательные дизайны для
+                  жилых и коммерческих помещений.
+                  <span className="service__box__text service__box__text_bold">
+                    &nbsp; К нам обращаются с квартирами / загородными домами /
+                    отелями / офисными пространствами / ресторанами / корнерами
+                    / магазинами / салонами красоты /
+                  </span>
+                </div>
+                <div className="service__box__text service__box__text_down">
+                  Каждый проект для нас - это мечта и новая вершина в достижении
+                  нашей цели.
+                </div>
+
+                <button className="service__box__button">
+                  Скачать и заполнить бриф
+                </button>
               </div>
-              <div className="service__box__text service__box__text_down">
-                Каждый проект для нас - это мечта и новая вершина в достижении
-                нашей цели.
-              </div>
-              <button className="service__box__button service__box__button_down">
-                Скачать и заполнить бриф
-              </button>
             </div>
           </div>
         </div>
@@ -120,7 +125,12 @@ export function Content() {
 
             <div className="projects__box__content">
               <div className="projects__box__imgbox">
-                <div className="projects__box__img projects__box__img_3">
+                <div>
+                  <img
+                    src="/public/img/projectsexh1.png"
+                    alt="projectsexh1"
+                    className="projects__box__img"
+                  />
                   <div className="projects__box__imgtext">
                     г. Москва, ALPHABET
                   </div>
@@ -128,7 +138,12 @@ export function Content() {
               </div>
 
               <div className="projects__box__imgbox">
-                <div className="projects__box__img projects__box__img_4">
+                <div>
+                  <img
+                    src="/public/img/projectsexh2.png"
+                    alt="projectsexh2"
+                    className="projects__box__img"
+                  />
                   <div className="projects__box__imgtext">
                     г. Москва, ПМЭМ - Калужская область
                   </div>
@@ -153,7 +168,12 @@ export function Content() {
             <div className="projects__box__tittle">ИНТЕРЬЕРЫ</div>
             <div className="projects__box__content">
               <div className="projects__box__imgbox">
-                <div className="projects__box__img projects__box__img_1">
+                <div>
+                  <img
+                    src="/public/img/projectsinterior1.png"
+                    alt="projectsinterior"
+                    className="projects__box__img"
+                  />
                   <div className="projects__box__imgtext">
                     г. Москва, жк ВОРОБЬЕВЫ ГОРЫ
                   </div>
@@ -161,7 +181,12 @@ export function Content() {
               </div>
 
               <div className="projects__box__imgbox">
-                <div className="projects__box__img projects__box__img_2">
+                <div>
+                  <img
+                    src="/public/img/projectsinterior2.png"
+                    alt="projectsinterior"
+                    className="projects__box__img"
+                  />
                   <div className="projects__box__imgtext">
                     г. Москва, жк WEST GARDEN
                   </div>
@@ -192,19 +217,19 @@ export function Content() {
           <div className="realization__content">
             <div className="realization__box">
               <img
-                src="/img/realizationbig1.png"
+                src="/public/img/realizationbig1.png"
                 alt="realizationbig"
                 className="realization__box__img_big"
               />
 
               <img
-                src="/img/realization1.png"
+                src="/public/img/realization1.png"
                 alt="realizationimg"
                 className="realization__box__img"
               />
 
               <img
-                src="/img/realization2.png"
+                src="/public/img/realization2.png"
                 alt="realizationimg"
                 className="realization__box__img"
               />
@@ -216,19 +241,19 @@ export function Content() {
 
             <div className="realization__box">
               <img
-                src="/img/realizationbig2.png"
+                src="/public/img/realizationbig2.png"
                 alt="realizationbig"
                 className="realization__box__img_big"
               />
 
               <img
-                src="/img/realization3.png"
+                src="/public/img/realization3.png"
                 alt="realizationimg"
                 className="realization__box__img"
               />
 
               <img
-                src="/img/realization4.png"
+                src="/public/img/realization4.png"
                 alt="realizationimg"
                 className="realization__box__img"
               />
@@ -258,12 +283,16 @@ export function Content() {
             <p className="wrnt__tittle">НАДЕЖНОСТЬ</p>
           </div>
 
-          <img src="/img/wrnt.png" alt="wrnt clients" className="wrnt__box" />
+          <img
+            src="/public/img/wrnt.png"
+            alt="wrnt clients"
+            className="wrnt__box"
+          />
 
           <p className="wrnt__slogan">НАША ГАРАНТИЯ - НАШИ ЗАКАЗЧИКИ</p>
 
           <img
-            src="/img/wrntlaptop.png"
+            src="/public/img/wrntlaptop.png"
             alt="laptop"
             className="wrnt__laptop"
           />
@@ -338,7 +367,7 @@ export function Content() {
         </div>
       </div>
 
-      <img src="/img/logo.png" alt="" className="footer__logo" />
+      <img src="/public/img/logo.png" alt="" className="footer__logo" />
 
       {/* <div className="footer__logo"></div> */}
     </div>
