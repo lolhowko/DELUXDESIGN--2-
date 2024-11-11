@@ -367,9 +367,7 @@ export function Content() {
         </div>
       </div>
 
-      <img src="/public/img/logo.png" alt="" className="footer__logo" />
-
-      {/* <div className="footer__logo"></div> */}
+      <img src="/public/logo.png" alt="" className="footer__logo" />
     </div>
   );
 }

@@ -17,65 +17,65 @@ export function Burger() {
 
       {!visible && (
         <div className="nav__menu menu">
-          <ul className="menu__list">
-            <li className="menu__item">
+          <div className="menu__list">
+            <div className="menu__item">
               <a href="#" className="menu__link">
                 ГЛАВНАЯ
               </a>
-            </li>
+            </div>
 
             <div className="menu__item_big">
-              <li className="menu__item">
+              <div className="menu__item">
                 <a href="#" className="menu__link">
                   ПОРТФОЛИО
                 </a>
-              </li>
-              <li className="menu__item">
+              </div>
+              <div className="menu__item">
                 <a href="#" className="menu__link_small">
                   ИНТЕРЬЕРЫ
                 </a>
-              </li>
-              <li className="menu__item">
+              </div>
+              <div className="menu__item">
                 <a href="#" className="menu__link_small">
                   ВЫСТАВКИ
                 </a>
-              </li>
+              </div>
             </div>
 
             <div className="menu__item_big">
-              <li className="menu__item">
+              <div className="menu__item">
                 <a href="../signin.html" className="menu__link">
                   О СТУДИИ
                 </a>
-              </li>
-              <li className="menu__item">
+              </div>
+              <div className="menu__item">
                 <a href="../signin.html" className="menu__link_small">
                   КОМАНДА
                 </a>
-              </li>
-              <li className="menu__item">
+              </div>
+              <div className="menu__item">
                 <a href="../signin.html" className="menu__link_small">
                   ОТЗЫВЫ
                 </a>
-              </li>
-              <li className="menu__item">
+              </div>
+              <div className="menu__item">
                 <a href="../signin.html" className="menu__link_small">
                   РЕКВИЗИТЫ
                 </a>
-              </li>
+              </div>
             </div>
 
-            <li className="menu__item">
+            <div className="menu__item">
               <a href="../signin.html" className="menu__link">
                 ПУБЛИКАЦИИ
               </a>
-            </li>
-            <li className="menu__item">
+            </div>
+            <div className="menu__item">
               <a href="../signin.html" className="menu__link">
                 КОНТАКТЫ
               </a>
-            </li>
-          </ul>
+            </div>
+          </div>
 
           <div className="menu__contact">
             <a

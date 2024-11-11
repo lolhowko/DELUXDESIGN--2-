@@ -1,4 +1,4 @@
-@media (max-width: 1840px) {
+@media (max-width: 1920px) {
   .content {
     margin-right: 250px;
     margin-left: 250px;
@@ -42,7 +42,7 @@
   }
 
   .service__box__content {
-    height: 350px;
+    height: 450px;
   }
 
   .service___box__item {
@@ -67,13 +67,14 @@
 
   .service__box__img {
     width: 100%;
-    height: 350px;
+    height: 450px;
 
     margin-top: 0px;
   }
 
   .service__box__img_1 {
     margin-top: 0px;
+    width: 90%;
   }
 
   .projects__box__tittle {
@@ -92,7 +93,7 @@
 
   .projects__box__img {
     background-repeat: no-repeat;
-    width: 350px;
+    width: 100%;
     height: 100%;
   }
 
@@ -208,5 +209,158 @@
   .footer__logo {
     width: 100%;
     height: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .content__box__tittle {
+    margin-top: 50px;
+  }
+  .content__box__tittle__text {
+    font-size: 20pt;
+    font-weight: 400;
+  }
+
+  .about__box {
+    flex-direction: column-reverse;
+  }
+
+  .about__box__texts {
+    width: 100%;
+  }
+
+  .about__box__text_small {
+    font-size: 10pt;
+  }
+
+  .about__box__text {
+    font-size: 12pt;
+  }
+
+  .about__box__img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .service__box {
+    flex-direction: column;
+  }
+
+  .service__box__content {
+    height: 250px;
+  }
+
+  .service__box__tittle {
+    font-size: 12pt;
+  }
+
+  .service__box__text {
+    font-size: 10pt;
+    width: 100%;
+  }
+
+  .service__box__img_1 {
+    width: 100%;
+  }
+
+  .service__box__button {
+    font-size: 8pt;
+    width: 200px;
+    margin-top: 0px;
+    padding: 5px 5px;
+  }
+
+  .projects__box__tittle {
+    font-size: 12pt;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .projects__box__content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .projects__box__imgtext {
+    font-size: 8pt;
+  }
+
+  .projects__box__texts {
+    width: 100%;
+  }
+
+  .projects__box__text {
+    font-size: 10pt;
+    padding-bottom: 10px;
+  }
+
+  .projects__box__button {
+    margin-bottom: 10px;
+  }
+
+  .realization{
+    margin-top: 0px;
+  }
+
+  .wrnt__tittles {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .wrnt__tittle {
+    font-size: 15pt;
+  }
+
+  .wrnt__slogan {
+    font-size: 10pt;
+    margin-top: 10px;
+  }
+
+  .wrnt__laptop {
+    margin-top: 0px;
+  }
+
+  .footer {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .footer__box__tittle__text {
+    font-size: 15pt;
+  }
+
+  .content__gorline {
+    margin-bottom: 10px;
+  }
+
+  .footer__content {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  .footer__box {
+    padding-top: 10px;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .footer__box__contact__text {
+    font-size: 12pt;
+  }
+
+  .footer__link__img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .footer__button {
+    font-size: 10pt;
+    padding: 5px 5px;
   }
 }

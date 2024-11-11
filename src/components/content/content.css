@@ -263,6 +263,7 @@
 .wrnt__tittles {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .wrnt__tittle {
@@ -302,6 +303,7 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 100px;
+  flex-wrap: wrap;
 }
 
 .footer__box__tittle {
